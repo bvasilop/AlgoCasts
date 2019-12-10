@@ -19,11 +19,21 @@
 // }
 // reverse('Hello');
 
-const reverse = str =>
-  str
-    .toLowerCase()
-    .split('')
-    .reverse()
-    .join('');
-reverse('Hello');
+// const reverse = str =>
+//   str
+//     .toLowerCase()
+//     .split('')
+//     .reverse()
+//     .join('');
+// reverse('Hello');
+
+function reverse(str) {
+  let reversed = '';
+
+  for (const character of str) {
+    reversed = character + reversed;
+  }
+
+  return reversed;
+}
 module.exports = reverse;
