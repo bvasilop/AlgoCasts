@@ -27,7 +27,7 @@
 //     .join('');
 // reverse('Hello');
 
-function reverse(str) {
+const reverse = (str) {
   let reversed = '';
 
   for (const character of str) {
