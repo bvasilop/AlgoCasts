@@ -15,6 +15,8 @@ function reverse(str) {
 
   for (const character of str) {
     reversed = character + reversed;
+    // take each character and add it on to the beginning of the string let reversed =''
+    // h -> eh -> leh -> lleh -> olleh
   }
 
   return reversed;
